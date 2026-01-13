@@ -1,0 +1,21 @@
+Dane wejściowe:
+
+Wielkosc pliku 1 GB
+Przepustowość: 93,33 Mb/s
+5% - narzut protokołów
+1% - retransmisje
+
+Sposób obliczenia:
+
+1 GB = 1024 MB = 8192 Mb
+
+Efektywna prędkość:
+100% - 5% - 1% = 94%
+93,33 x 0,94 = 87,73 Mb/s
+
+Obliczenie czasu:
+t = 8192/87,73 = 93,37 s ~ 1 min 55s
+
+Prędkość pobierania mojego łącza wynosi 93,33 Mb/s.
+Po uwzględnieniu narzutu protokołów Ethernet/IP/TCP oraz retransmisji (6%) efektywna przepustowość wynosi około 87,73 Mb/s.
+Pobranie pliku o wielkości 1 GB zajmie około 93,37s, czyli 2 minuty.
