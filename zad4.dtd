@@ -1,0 +1,8 @@
+<!ELEMENT uzytkownicy (uzytkownik+)>
+<!ELEMENT uzytkownik (imie, nazwisko, plec, wiek, zawod)>
+<!ATTLIST uzytkownik id ID #REQUIRED>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT plec (#PCDATA)>
+<!ELEMENT wiek (#PCDATA)>
+<!ELEMENT zawod (#PCDATA)>
