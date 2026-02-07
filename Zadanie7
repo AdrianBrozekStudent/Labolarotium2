@@ -1,0 +1,9 @@
+https://example.com/page?name=Jan&age=20
+
+Parametry w metodzie GET znajdują się w URL, po znaku ?, w tzw. query string.
+Nie są  one szyfrowane.
+
+Dane w metodzie GET są w linku URL, w metodzie POST są w body zapytania HTTP.
+Metoda GEt pobiera dane, metoda POST wysyła dane.
+
+Rozmiar danych w metodize GET ograniczony długością URL, w POST mamy dużo więcej opcji przesyłania danych
